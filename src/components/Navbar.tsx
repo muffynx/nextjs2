@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div className="bg-base-300">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6 bg-gray-100 rounded-lg ">
+      <div className=" mx-auto flex justify-between items-center py-4 px-6 bg-gray-100 rounded-lg ">
         {/* Logo or Brand Name */}
         <Link href="/" className="text-xl font-bold text-black rounded-lg">
           Pound.
