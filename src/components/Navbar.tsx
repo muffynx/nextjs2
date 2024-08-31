@@ -12,7 +12,8 @@ export default function Navbar() {
 
   return (
     <div className="bg-base-300">
-      <div className=" mx-auto flex justify-between items-center py-4 px-6 bg-gray-100 rounded-lg ">
+      < div className="w-full flex justify-between items-center py-4 px-6 bg-gray-100 rounded-lg">
+
         {/* Logo or Brand Name */}
         <Link href="/" className="text-xl font-bold text-black rounded-lg">
           Pound.
@@ -22,7 +23,7 @@ export default function Navbar() {
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
-            className="text-xl focus:outline-none"
+            className="text-xl focus:outline-none bg-black rounded-lg"
           >
             &#9776;
           </button>
@@ -52,7 +53,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="font-semibold" href="/about-me" onClick={toggleMenu}>
+              <Link className="font-semibold" href="/about" onClick={toggleMenu}>
                 About Me
               </Link>
             </li>
