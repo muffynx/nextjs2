@@ -49,7 +49,7 @@ interface PokemonDetails {
     if (!pokemon) return <p>No Pokemon data available</p>;
   
     return (
-      <div className="container flex justify-center items-center min-h-screen">
+      <div className=" flex justify-center items-center min-h-screen">
         <div className="max-w-5xl bg-gray-100 rounded-lg p-6">
           <h1 className="mt-10 mb-3 text-3xl font-bold text-black">{pokemon.name}</h1>
           <Image
